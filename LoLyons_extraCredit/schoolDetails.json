@@ -1,0 +1,20 @@
+{
+  "courses": [
+    {
+      "courseName": "Python",
+      "courseNumber": "CIS 153",
+      "numCredits": 3
+    }
+  ],
+  "students": [
+    {
+      "studentName": "Lorelai",
+      "studentID": 12345,
+      "studentGPA": 4.0,
+      "studentMajor": "Programming",
+      "enrolledCourses": [
+        "Python"
+      ]
+    }
+  ]
+}
