@@ -15,4 +15,4 @@ This program allows users to:
 6. view the total credits a student has overall.
 7. Save and load the information
 
-8. It is very basic and I tried to keep it clean and comment it appropriately.
+It is very basic and I tried to keep it clean and comment it appropriately.
