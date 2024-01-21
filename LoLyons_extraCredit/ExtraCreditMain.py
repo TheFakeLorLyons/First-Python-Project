@@ -88,12 +88,7 @@ def main():
             case 'a':
                 ExampleSchool.register_a_new_student()
             case 'b':
-                studentName = input("Which student's details do you need to see?")
-                student = ExampleSchool.get_student_by_name(studentName)
-                if student:
-                    student.to_string()
-                else:
-                    print("That student is not enrolled in our school.")
+                ExampleSchool.print_a_specific_student_courseload()
             case 'c':
                 ExampleSchool.create_new_course()
             case 'd':
@@ -110,9 +105,7 @@ def main():
                 #Exiting the program
                 print("Thanks for using the 'EnrollmentSim'")
                 inSesh = False;
-            case 'j':
-                ExampleSchool.print_a_specific_student_courseload()
-            case 'k':#This is an extra bonus kinda hid in the back end... k(bonus): A complete list of all students currently enrolled
+            case 'j':#This is an extra bonus kinda hid in the back end... k(bonus): A complete list of all students currently enrolled
                 ExampleSchool.display_completeStudentList()
             case _:
                 return "This indicates invalid input or an error"

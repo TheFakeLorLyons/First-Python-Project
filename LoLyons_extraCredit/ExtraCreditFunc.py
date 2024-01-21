@@ -189,7 +189,6 @@ class School:
             f: Display the number of credits a student has accumulated
             g: Save all information
             h: Load information
-            j(bonus): See individual course loads by student name
             i: Exit
             '''
         print(pleaseSelect)
